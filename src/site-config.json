@@ -1,0 +1,560 @@
+{
+  "business": {
+    "name": "Adams Tree Service",
+    "phone": "+14055499054",
+    "category": "tree service",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  "design": {
+    "preset": {
+      "id": "tree-service-red-charge",
+      "categoryGroup": "tree-service",
+      "name": "Red Charge",
+      "recipeFile": "tree-service/red-charge.astro",
+      "colors": {
+        "primary": "#166534",
+        "primaryDark": "#052E16",
+        "primaryLight": "#c5d9cc",
+        "secondary": "#145b2f",
+        "accent": "#84CC16",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#166534",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "tree-service/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Oklahoma City Tree Experts",
+      "heroSubline": "Safe, reliable tree services for your home or business. Serving Oklahoma City and surrounding areas with professional care.",
+      "aboutTitle": "Your Trusted Tree Care Partner in OKC",
+      "aboutText": [
+        "Adams Tree Service was founded over a decade ago with a simple mission: to provide exceptional tree care while respecting the unique needs of Oklahoma's landscape. We're a family-owned and operated business deeply rooted in the Oklahoma City community.",
+        "We believe in responsible tree management, combining industry expertise with a genuine concern for the health and beauty of your trees. Our team is committed to providing honest assessments, transparent pricing, and meticulous workmanship on every project.",
+        "Beyond our commitment to quality service, we are actively involved in local initiatives, supporting tree planting programs and educating homeowners on proper tree care practices. We strive to be more than just a tree service – we aim to be a valuable resource for our community."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Arborists",
+          "description": "Our team includes certified arborists with extensive knowledge of Oklahoma's native trees and common tree diseases."
+        },
+        {
+          "title": "Safety First",
+          "description": "We prioritize safety in all our operations, utilizing industry-standard equipment and techniques to protect your property and our crew."
+        },
+        {
+          "title": "Comprehensive Services",
+          "description": "From routine pruning to emergency tree removal, we offer a full range of tree care solutions to meet your needs."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "We understand the challenges of Oklahoma's climate and soil conditions, allowing us to provide tailored recommendations for optimal tree health."
+        }
+      ],
+      "ctaHeadline": "Get a Free Tree Service Quote",
+      "ctaSubline": "Contact us today to schedule a consultation and learn how we can help you maintain healthy, beautiful trees."
+    },
+    "services": [
+      {
+        "slug": "tree-trimming",
+        "name": "Tree Trimming & Pruning",
+        "shortDescription": "Enhance the beauty and health of your trees with our professional trimming and pruning services.",
+        "description": "Proper tree trimming and pruning are essential for maintaining the health, appearance, and safety of your trees. At Adams Tree Service, our certified arborists understand the specific needs of different tree species in the Oklahoma City area. We use industry-best practices to remove dead, diseased, or damaged branches, promoting healthy growth and preventing potential hazards. Our trimming services not only improve the aesthetic appeal of your landscape but also enhance sunlight penetration and air circulation, reducing the risk of fungal diseases and pest infestations. We carefully assess each tree's structure and growth patterns to determine the most appropriate trimming techniques, ensuring the long-term health and vitality of your trees. We also offer specialized pruning services for fruit trees to maximize fruit production. In Oklahoma's climate, with its unpredictable ice storms and strong winds, regular tree trimming is crucial for preventing branch breakage and minimizing storm damage. We adhere to ANSI A300 pruning standards, ensuring that all our work is performed safely and effectively.",
+        "process": [
+          "Step 1: Assessment - We evaluate the tree's health, structure, and surrounding environment.",
+          "Step 2: Pruning Plan - We develop a customized pruning plan based on the tree's specific needs.",
+          "Step 3: Trimming - We carefully remove dead, diseased, or damaged branches using appropriate techniques.",
+          "Step 4: Cleanup - We remove all debris and leave your property clean and tidy."
+        ],
+        "benefits": [
+          "Improved tree health and vitality",
+          "Enhanced aesthetic appeal",
+          "Reduced risk of storm damage",
+          "Increased sunlight penetration and air circulation"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my trees trimmed?",
+            "answer": "The frequency of tree trimming depends on the species, age, and health of the tree. Generally, mature trees should be trimmed every 3-5 years, while younger trees may require more frequent pruning to establish a strong structure. We can assess your trees and recommend a suitable trimming schedule."
+          },
+          {
+            "question": "What is the difference between trimming and pruning?",
+            "answer": "Trimming generally refers to the removal of smaller branches and twigs to maintain shape and appearance. Pruning involves the removal of larger branches to improve tree health, structure, or safety. Both are essential for proper tree care."
+          },
+          {
+            "question": "Can I trim my trees myself?",
+            "answer": "While it's possible to trim smaller trees yourself, it's generally recommended to hire a professional for larger trees or complex pruning jobs. Improper trimming can damage the tree and create safety hazards. Our team has the expertise and equipment to perform tree trimming safely and effectively."
+          }
+        ]
+      },
+      {
+        "slug": "tree-removal",
+        "name": "Tree Removal",
+        "shortDescription": "Safely and efficiently remove unwanted or hazardous trees from your property.",
+        "description": "Tree removal is a complex and potentially dangerous task that should only be performed by experienced professionals. At Adams Tree Service, we have the expertise, equipment, and insurance to safely and efficiently remove trees of any size. Whether you have a dead, diseased, or storm-damaged tree, or simply need to clear space for construction or landscaping, we can handle the job with minimal disruption to your property. We carefully assess the tree's location, surrounding environment, and potential hazards before developing a removal plan. Our team uses specialized equipment, such as cranes, ropes, and rigging, to safely lower branches and sections of the trunk to the ground. We also take precautions to protect underground utilities and nearby structures. In Oklahoma City, with its frequent severe weather, tree removal is often necessary to address storm damage or prevent potential hazards. We are available for emergency tree removal services 24/7. After removing the tree, we can also grind the stump and remove the debris, leaving your property clean and ready for replanting. We are committed to responsible tree removal practices and will always explore alternative solutions, such as tree preservation or relocation, whenever possible. We follow all local regulations and obtain any necessary permits before starting the removal process.",
+        "process": [
+          "Step 1: Assessment - We evaluate the tree's condition, location, and potential hazards.",
+          "Step 2: Removal Plan - We develop a safe and efficient removal plan, considering all factors.",
+          "Step 3: Tree Removal - We carefully remove the tree using specialized equipment and techniques.",
+          "Step 4: Cleanup - We remove all debris and grind the stump, if requested."
+        ],
+        "benefits": [
+          "Safe and efficient tree removal",
+          "Minimal disruption to your property",
+          "Prevention of potential hazards",
+          "Complete cleanup and stump grinding services"
+        ],
+        "faq": [
+          {
+            "question": "How much does tree removal cost?",
+            "answer": "The cost of tree removal depends on several factors, including the size, species, and location of the tree, as well as the complexity of the removal process. We offer free estimates and will provide you with a detailed quote before starting any work."
+          },
+          {
+            "question": "Do I need a permit to remove a tree?",
+            "answer": "Whether or not you need a permit to remove a tree depends on local regulations. In some cases, you may need a permit if the tree is located on public property or is a protected species. We can help you determine if a permit is required and assist with the application process."
+          },
+          {
+            "question": "What happens to the tree after it's removed?",
+            "answer": "We can either haul away the tree debris or chip it into mulch for use in your garden. We also offer stump grinding services to remove the stump below ground level."
+          }
+        ]
+      },
+      {
+        "slug": "stump-grinding",
+        "name": "Stump Grinding & Removal",
+        "shortDescription": "Remove unsightly tree stumps and reclaim your yard with our professional stump grinding services.",
+        "description": "After a tree is removed, the remaining stump can be an eyesore and a potential hazard. At Adams Tree Service, we offer professional stump grinding and removal services to completely eliminate tree stumps from your property. Our stump grinders are powerful machines that can grind stumps of any size below ground level, allowing you to reclaim your yard for planting, landscaping, or other uses. Stump grinding is a much more efficient and less disruptive option than traditional stump removal methods, which often involve digging up the entire root system. We carefully assess the stump's location and surrounding environment before grinding, taking precautions to protect underground utilities and nearby structures. After grinding the stump, we remove the debris and fill the hole with topsoil, leaving your yard clean and ready for replanting. In Oklahoma City, with its clay soil, stump grinding is particularly beneficial as it helps improve drainage and prevent soil compaction. We also offer root removal services to eliminate any remaining roots that may interfere with future landscaping projects. Our team is experienced in handling all types of stumps, including those from large trees or those located in difficult-to-access areas. We are committed to providing efficient, affordable, and environmentally friendly stump grinding services.",
+        "process": [
+          "Step 1: Assessment - We evaluate the stump's size, location, and surrounding environment.",
+          "Step 2: Stump Grinding - We grind the stump below ground level using specialized equipment.",
+          "Step 3: Debris Removal - We remove all debris and fill the hole with topsoil.",
+          "Step 4: Cleanup - We leave your property clean and ready for replanting."
+        ],
+        "benefits": [
+          "Complete stump removal",
+          "Reclaimed yard space",
+          "Improved drainage and soil conditions",
+          "Prevention of pest infestations"
+        ],
+        "faq": [
+          {
+            "question": "How long does stump grinding take?",
+            "answer": "The time it takes to grind a stump depends on its size and location. Most stumps can be ground in a few hours or less. We will provide you with an estimated timeframe before starting the work."
+          },
+          {
+            "question": "Will stump grinding damage my lawn?",
+            "answer": "We take precautions to minimize damage to your lawn during stump grinding. However, some minor damage is unavoidable. We will repair any damage to the best of our ability and reseed the area if necessary."
+          },
+          {
+            "question": "Can I plant a new tree in the same spot after stump grinding?",
+            "answer": "Yes, you can plant a new tree in the same spot after stump grinding. However, it's important to remove any remaining roots and amend the soil with compost or other organic matter to ensure the new tree thrives."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-tree-service",
+        "name": "24/7 Emergency Tree Service",
+        "shortDescription": "Rapid response for storm damage and hazardous tree situations in Oklahoma City.",
+        "description": "Oklahoma City is prone to severe weather, including thunderstorms, tornadoes, and ice storms, which can cause significant damage to trees. When a tree falls on your house, blocks your driveway, or poses a safety hazard, you need immediate assistance. Adams Tree Service offers 24/7 emergency tree service to address these urgent situations. Our team is available around the clock to respond to your emergency calls and provide prompt, professional service. We have the equipment and expertise to safely remove fallen trees, clear debris, and mitigate any further damage. We understand the stress and urgency of these situations and will work quickly and efficiently to restore safety and normalcy to your property. Our emergency tree service includes tree removal, tree trimming, branch removal, and storm damage cleanup. We also work with insurance companies to streamline the claims process. In Oklahoma City, with its unpredictable weather patterns, it's essential to have a reliable emergency tree service provider you can count on. We are committed to providing fast, reliable, and affordable emergency tree services to protect your property and ensure your safety. We prioritize emergency calls and will dispatch a crew to your location as soon as possible.",
+        "process": [
+          "Step 1: Emergency Call - Contact us 24/7 to report your tree emergency.",
+          "Step 2: Rapid Response - We dispatch a crew to your location as soon as possible.",
+          "Step 3: Hazard Assessment - We assess the situation and develop a safe removal plan.",
+          "Step 4: Emergency Service - We safely remove the tree and clear the debris."
+        ],
+        "benefits": [
+          "24/7 availability",
+          "Rapid response time",
+          "Safe and efficient tree removal",
+          "Assistance with insurance claims"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a tree emergency?",
+            "answer": "A tree emergency is any situation where a tree poses an immediate threat to safety or property, such as a fallen tree blocking a road, a tree leaning precariously over a house, or a tree with broken branches hanging dangerously."
+          },
+          {
+            "question": "How quickly can you respond to an emergency call?",
+            "answer": "We prioritize emergency calls and will dispatch a crew to your location as soon as possible. Our response time depends on our current workload and your location, but we strive to arrive within a few hours."
+          },
+          {
+            "question": "Do you work with insurance companies?",
+            "answer": "Yes, we work with insurance companies to streamline the claims process. We can provide you with documentation and photos to support your claim."
+          }
+        ]
+      },
+      {
+        "slug": "tree-planting",
+        "name": "Tree Planting",
+        "shortDescription": "Enhance your landscape and contribute to a greener Oklahoma City with our tree planting services.",
+        "description": "Planting a tree is an investment in the future, providing shade, beauty, and environmental benefits for generations to come. At Adams Tree Service, we offer professional tree planting services to help you select and plant the right trees for your property. We carefully consider factors such as soil conditions, sunlight exposure, and available space to recommend tree species that will thrive in the Oklahoma City climate. We source our trees from reputable nurseries and ensure they are healthy and well-suited to the local environment. Our team will properly prepare the planting site, dig the hole, and plant the tree according to industry best practices. We also provide ongoing care and maintenance tips to ensure the tree's long-term health and survival. In Oklahoma City, with its hot summers and clay soil, it's essential to choose drought-tolerant and adaptable tree species. We can help you select trees that will provide shade, reduce energy costs, and enhance the beauty of your landscape. We are committed to promoting tree planting in Oklahoma City and contributing to a greener, more sustainable future. We also offer tree relocation services to move existing trees to new locations on your property. Our tree planting services include site preparation, tree selection assistance, planting, mulching, watering, and ongoing care tips.",
+        "process": [
+          "Step 1: Site Assessment - We evaluate your property's soil, sunlight, and space.",
+          "Step 2: Tree Selection - We recommend tree species that will thrive in your landscape.",
+          "Step 3: Planting - We properly plant the tree according to industry best practices.",
+          "Step 4: Aftercare - We provide ongoing care tips to ensure the tree's long-term health."
+        ],
+        "benefits": [
+          "Enhanced landscape beauty",
+          "Increased property value",
+          "Shade and energy savings",
+          "Environmental benefits"
+        ],
+        "faq": [
+          {
+            "question": "What is the best time of year to plant a tree?",
+            "answer": "The best time of year to plant a tree in Oklahoma City is typically in the fall or early spring, when the weather is cooler and the soil is moist. However, trees can be planted at other times of the year with proper care and watering."
+          },
+          {
+            "question": "What kind of trees grow well in Oklahoma City?",
+            "answer": "Some of the best trees for Oklahoma City include the Shumard Oak, Red Oak, Chinkapin Oak, Bur Oak, Eastern Red Cedar, and Bald Cypress. These trees are drought-tolerant and adaptable to the local climate and soil conditions."
+          },
+          {
+            "question": "How much does tree planting cost?",
+            "answer": "The cost of tree planting depends on the size and species of the tree, as well as the complexity of the planting site. We offer free estimates and will provide you with a detailed quote before starting any work."
+          }
+        ]
+      },
+      {
+        "slug": "disease-pest-management",
+        "name": "Tree Disease & Pest Management",
+        "shortDescription": "Protect your trees from diseases and pests with our expert diagnosis and treatment services.",
+        "description": "Trees in Oklahoma City are susceptible to a variety of diseases and pests that can weaken them, damage their appearance, and even kill them. At Adams Tree Service, we offer expert diagnosis and treatment services to protect your trees from these threats. Our certified arborists have the knowledge and experience to identify common tree diseases and pests, such as oak wilt, Dutch elm disease, emerald ash borer, and bagworms. We use a variety of treatment methods, including systemic injections, foliar sprays, and soil drenches, to control diseases and pests and restore tree health. We also provide preventative treatments to protect healthy trees from future infestations. We carefully assess each tree's condition and develop a customized treatment plan based on its specific needs. We use environmentally friendly products and techniques whenever possible to minimize the impact on the surrounding environment. In Oklahoma City, with its humid summers and frequent rainfall, trees are particularly vulnerable to fungal diseases. Regular monitoring and preventative treatments are essential for maintaining tree health. Our tree disease and pest management services include diagnosis, treatment, preventative care, and ongoing monitoring.",
+        "process": [
+          "Step 1: Diagnosis - We identify the disease or pest affecting your tree.",
+          "Step 2: Treatment Plan - We develop a customized treatment plan based on the diagnosis.",
+          "Step 3: Treatment - We apply the appropriate treatment methods to control the disease or pest.",
+          "Step 4: Monitoring - We monitor the tree's progress and adjust the treatment as needed."
+        ],
+        "benefits": [
+          "Protection from tree diseases and pests",
+          "Improved tree health and vitality",
+          "Prevention of tree death",
+          "Environmentally friendly treatment options"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my tree has a disease or pest problem?",
+            "answer": "Some common signs of tree diseases and pests include discolored leaves, wilting branches, unusual growths, holes in the bark, and excessive insect activity. If you notice any of these signs, contact us for a professional diagnosis."
+          },
+          {
+            "question": "What are some common tree diseases in Oklahoma City?",
+            "answer": "Some common tree diseases in Oklahoma City include oak wilt, Dutch elm disease, and powdery mildew. These diseases can affect a variety of tree species and can cause significant damage if left untreated."
+          },
+          {
+            "question": "Are your treatments safe for pets and children?",
+            "answer": "Yes, we use environmentally friendly products and techniques whenever possible to minimize the impact on pets and children. We will also provide you with specific instructions to follow after treatment to ensure their safety."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Oklahoma City",
+        "slug": "oklahoma-city-ok",
+        "state": "OK",
+        "content": "Adams Tree Service is proud to offer comprehensive tree care services to the residents and businesses of Oklahoma City. From routine tree trimming and pruning to emergency storm damage cleanup and complete tree removal, our experienced team is equipped to handle any tree-related need in the OKC metro area. We understand the unique challenges of maintaining healthy trees in Oklahoma's climate, and we are committed to providing reliable and affordable solutions.\n\nOur certified arborists can assess the health of your trees, identify potential problems, and recommend the best course of action to ensure their longevity and beauty. We also offer services such as stump grinding, land clearing, and tree planting to enhance your property's landscape. Trust Adams Tree Service to keep your trees healthy and your property safe in Oklahoma City.",
+        "localContext": "Oklahoma City, the state capital, is known for its vibrant culture, booming economy, and beautiful parks and green spaces. With its diverse neighborhoods and growing population, OKC presents unique tree care challenges that Adams Tree Service is ready to address.",
+        "nearbyAreas": [
+          "Edmond",
+          "Moore",
+          "Midwest City"
+        ]
+      },
+      {
+        "city": "Edmond",
+        "slug": "edmond-ok",
+        "state": "OK",
+        "content": "Adams Tree Service provides expert tree care services to homeowners and businesses in Edmond, Oklahoma. We specialize in a wide range of services, including tree trimming, tree removal, stump grinding, and emergency tree services. Our team of certified arborists is dedicated to providing the highest quality tree care to ensure the health and beauty of your trees.\n\nWe understand the importance of maintaining healthy trees in Edmond's environment. Our services are designed to address the specific needs of trees in this area, from preventing disease and pests to ensuring proper growth and structure. We are committed to providing reliable and affordable tree care solutions to our customers in Edmond.",
+        "localContext": "Edmond is a thriving suburban city known for its excellent schools, family-friendly atmosphere, and well-maintained landscapes. The city places a strong emphasis on preserving its natural beauty, making professional tree care services essential for maintaining the health and aesthetics of properties.",
+        "nearbyAreas": [
+          "Oklahoma City",
+          "Guthrie",
+          "Piedmont"
+        ]
+      },
+      {
+        "city": "Moore",
+        "slug": "moore-ok",
+        "state": "OK",
+        "content": "Adams Tree Service is dedicated to providing top-notch tree care services to the Moore, Oklahoma community. We offer a full spectrum of services, from routine pruning and shaping to complete tree removal and storm damage cleanup. Our team understands the specific challenges that trees face in Moore, including the potential for severe weather.\n\nWe are committed to helping our customers maintain healthy, beautiful trees that enhance their properties and contribute to the overall well-being of the community. Whether you need assistance with a single tree or require comprehensive tree care for your entire property, Adams Tree Service is here to help. We provide prompt, professional, and affordable service.",
+        "localContext": "Moore, Oklahoma, is a family-oriented community with a strong sense of resilience and community spirit. Located just south of Oklahoma City, Moore has faced its share of challenges, making reliable tree care services crucial for maintaining property values and safety.",
+        "nearbyAreas": [
+          "Oklahoma City",
+          "Norman",
+          "Newcastle"
+        ]
+      },
+      {
+        "city": "Norman",
+        "slug": "norman-ok",
+        "state": "OK",
+        "content": "Adams Tree Service extends its professional tree care services to Norman, Oklahoma. We are equipped to handle all your tree-related needs, from routine maintenance to emergency situations. Our services include tree trimming, tree removal, stump grinding, and storm damage cleanup. We understand the unique needs of trees in the Norman area and are committed to providing tailored solutions.\n\nOur team of experienced arborists is dedicated to ensuring the health and beauty of your trees. We use the latest techniques and equipment to provide efficient and effective tree care services. Adams Tree Service is your trusted partner for all your tree care needs in Norman.",
+        "localContext": "Norman, home to the University of Oklahoma, is a vibrant city with a strong emphasis on education and community. The city's diverse landscape and climate require specialized tree care services to maintain the health and beauty of its urban forest.",
+        "nearbyAreas": [
+          "Moore",
+          "Oklahoma City",
+          "Noble"
+        ]
+      },
+      {
+        "city": "Midwest City",
+        "slug": "midwest-city-ok",
+        "state": "OK",
+        "content": "Adams Tree Service provides comprehensive tree care solutions to the residents and businesses of Midwest City, Oklahoma. Our services include tree trimming, tree removal, stump grinding, and emergency storm damage response. We are dedicated to providing reliable and affordable tree care services to ensure the safety and beauty of your property.\n\nWe understand the importance of maintaining healthy trees in Midwest City's environment. Our team of certified arborists is equipped to assess the health of your trees, identify potential problems, and recommend the best course of action. Trust Adams Tree Service to keep your trees healthy and your property safe.",
+        "localContext": "Midwest City is a thriving community with a strong connection to Tinker Air Force Base. The city's diverse neighborhoods and commitment to green spaces make professional tree care services essential for preserving its character and property values.",
+        "nearbyAreas": [
+          "Oklahoma City",
+          "Del City",
+          "Choctaw"
+        ]
+      },
+      {
+        "city": "Del City",
+        "slug": "del-city-ok",
+        "state": "OK",
+        "content": "Adams Tree Service offers professional tree care services to the residents and businesses of Del City, Oklahoma. From routine maintenance to emergency tree removal, we are equipped to handle all your tree-related needs. Our services include tree trimming, stump grinding, and storm damage cleanup.\n\nWe are committed to providing reliable and affordable tree care solutions to ensure the safety and beauty of your property. Our team of experienced arborists is dedicated to providing the highest quality service and customer satisfaction. Adams Tree Service is your trusted partner for all your tree care needs in Del City.",
+        "localContext": "Del City is a close-knit community with a strong sense of pride and neighborly spirit. Located near Tinker Air Force Base, the city benefits from a stable economy and a commitment to maintaining its residential character, making professional tree care important for preserving its appeal.",
+        "nearbyAreas": [
+          "Oklahoma City",
+          "Midwest City",
+          "Moore"
+        ]
+      },
+      {
+        "city": "Yukon",
+        "slug": "yukon-ok",
+        "state": "OK",
+        "content": "Adams Tree Service is proud to serve the Yukon, Oklahoma community with exceptional tree care services. We offer a wide range of services, including tree trimming, tree removal, stump grinding, and emergency storm damage cleanup. Our experienced team is dedicated to providing reliable and affordable solutions to meet your tree care needs.\n\nWe understand the importance of maintaining healthy trees in Yukon's environment. Our services are designed to address the specific challenges of trees in this area, from preventing disease and pests to ensuring proper growth and structure. Adams Tree Service is committed to providing the highest quality service and customer satisfaction.",
+        "localContext": "Yukon is a growing city known for its strong sense of community, excellent schools, and family-friendly atmosphere. With its expanding residential areas and commitment to maintaining green spaces, professional tree care services are essential for preserving the city's beauty and property values.",
+        "nearbyAreas": [
+          "Oklahoma City",
+          "Mustang",
+          "Piedmont"
+        ]
+      },
+      {
+        "city": "Mustang",
+        "slug": "mustang-ok",
+        "state": "OK",
+        "content": "Adams Tree Service provides expert tree care services to the residents and businesses of Mustang, Oklahoma. Our services include tree trimming, tree removal, stump grinding, and emergency tree services. We are dedicated to providing reliable and affordable solutions to meet your tree care needs.\n\nWe understand the importance of maintaining healthy trees in Mustang's environment. Our team of certified arborists is equipped to assess the health of your trees, identify potential problems, and recommend the best course of action. Trust Adams Tree Service to keep your trees healthy and your property safe in Mustang.",
+        "localContext": "Mustang is a rapidly growing community known for its excellent schools, safe neighborhoods, and family-friendly environment. With its expanding residential areas and commitment to maintaining green spaces, professional tree care services are essential for preserving the city's beauty and property values.",
+        "nearbyAreas": [
+          "Oklahoma City",
+          "Yukon",
+          "Union City"
+        ]
+      },
+      {
+        "city": "Choctaw",
+        "slug": "choctaw-ok",
+        "state": "OK",
+        "content": "Adams Tree Service is dedicated to providing the highest quality tree care services to the residents of Choctaw, Oklahoma. Our services include tree trimming, tree removal, stump grinding, and emergency storm damage cleanup. We are committed to providing reliable and affordable solutions to meet your tree care needs.\n\nWe understand the importance of maintaining healthy trees in Choctaw's environment. Our team of certified arborists is equipped to assess the health of your trees, identify potential problems, and recommend the best course of action. Trust Adams Tree Service to keep your trees healthy and your property safe in Choctaw.",
+        "localContext": "Choctaw is a growing community with a strong sense of small-town charm and a commitment to preserving its natural beauty. With its expanding residential areas and commitment to maintaining green spaces, professional tree care services are essential for preserving the city's beauty and property values.",
+        "nearbyAreas": [
+          "Midwest City",
+          "Harrah",
+          "Nicoma Park"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Tree Trimming",
+        "text": "Adams Tree Service did an amazing job trimming our large oak tree. They were professional, efficient, and cleaned up everything perfectly. Our tree looks healthier than ever!",
+        "date": "2024-07-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Tree Removal",
+        "text": "We had a large, dead tree that needed to be removed. Adams Tree Service gave us a fair price and completed the job safely and quickly. The team was very careful to avoid damaging our fence.",
+        "date": "2024-08-02"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 5,
+        "service": "Stump Grinding",
+        "text": "I was so happy with the stump grinding service! They completely removed the old stump from our backyard, and now we can finally plant a garden. The crew was friendly and professional.",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "John L.",
+        "rating": 5,
+        "service": "Emergency Tree Service",
+        "text": "During a recent storm, a large branch fell on our roof. Adams Tree Service responded immediately and removed the branch quickly and safely. I highly recommend them for emergency services!",
+        "date": "2024-10-28"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 4,
+        "service": "Tree Planting",
+        "text": "Adams Tree Service helped us select and plant a beautiful new tree in our front yard. They were very knowledgeable about different tree species and provided excellent planting advice.",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Robert B.",
+        "rating": 5,
+        "service": "Tree Disease & Pest Management",
+        "text": "Our oak tree was infested with bagworms, and Adams Tree Service was able to treat it effectively. The tree is now healthy and thriving. Very happy with the service!",
+        "date": "2024-12-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Adams Tree Service | OKC Tree Experts",
+        "description": "Reliable tree services in Oklahoma City. Trimming, removal, emergency service, and more. Free quotes!"
+      },
+      "about": {
+        "title": "About Adams Tree Service | OKC Arborists",
+        "description": "Learn about Adams Tree Service, your trusted tree care partner in Oklahoma City. Experienced & reliable."
+      },
+      "services": {
+        "title": "Adams Tree Service | OKC Tree Services",
+        "description": "Comprehensive tree services in Oklahoma City: trimming, removal, stump grinding, emergency service, & more."
+      },
+      "contact": {
+        "title": "Contact Adams Tree Service | OKC Tree Quote",
+        "description": "Contact Adams Tree Service for a free quote on tree services in Oklahoma City. Call +14055499054."
+      },
+      "reviews": {
+        "title": "Adams Tree Service Reviews | OKC Tree Service",
+        "description": "Read reviews for Adams Tree Service in Oklahoma City. See what our customers say about our tree services."
+      },
+      "service-areas": {
+        "title": "Adams Tree Service | Service Areas",
+        "description": "Adams Tree Service provides tree care services in Oklahoma City and surrounding areas. Contact us today!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "tree-trimming": "/images/service-tree-trimming.webp",
+      "tree-removal": "/images/service-tree-removal.webp",
+      "stump-grinding": "/images/service-stump-grinding.webp",
+      "emergency-tree-service": "/images/service-emergency-tree-service.webp",
+      "tree-planting": "/images/service-tree-planting.webp",
+      "disease-pest-management": "/images/service-disease-pest-management.webp"
+    },
+    "servicesResponsive": {
+      "tree-trimming": {
+        "src": "/images/service-tree-trimming.webp",
+        "srcset": "/images/service-tree-trimming-400w.webp 400w, /images/service-tree-trimming-800w.webp 800w, /images/service-tree-trimming-1200w.webp 1200w, /images/service-tree-trimming.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-removal": {
+        "src": "/images/service-tree-removal.webp",
+        "srcset": "/images/service-tree-removal-400w.webp 400w, /images/service-tree-removal-800w.webp 800w, /images/service-tree-removal-1200w.webp 1200w, /images/service-tree-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stump-grinding": {
+        "src": "/images/service-stump-grinding.webp",
+        "srcset": "/images/service-stump-grinding-400w.webp 400w, /images/service-stump-grinding-800w.webp 800w, /images/service-stump-grinding-1200w.webp 1200w, /images/service-stump-grinding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-tree-service": {
+        "src": "/images/service-emergency-tree-service.webp",
+        "srcset": "/images/service-emergency-tree-service-400w.webp 400w, /images/service-emergency-tree-service-800w.webp 800w, /images/service-emergency-tree-service-1200w.webp 1200w, /images/service-emergency-tree-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-planting": {
+        "src": "/images/service-tree-planting.webp",
+        "srcset": "/images/service-tree-planting-400w.webp 400w, /images/service-tree-planting-800w.webp 800w, /images/service-tree-planting-1200w.webp 1200w, /images/service-tree-planting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "disease-pest-management": {
+        "src": "/images/service-disease-pest-management.webp",
+        "srcset": "/images/service-disease-pest-management-400w.webp 400w, /images/service-disease-pest-management-800w.webp 800w, /images/service-disease-pest-management-1200w.webp 1200w, /images/service-disease-pest-management.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
